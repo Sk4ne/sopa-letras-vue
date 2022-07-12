@@ -38,20 +38,19 @@
               <th class="text-center">X</th>
               <th class="text-center">O</th>
               <th class="text-center">Ñ</th>
-              <th class="text-center" id="tigger-1" @click="tig1()">T</th>
+              <th class="text-center" ref="tigger-1" @click="tig1()">T</th>
               <th class="text-center">U</th>
               <th class="text-center">Y</th>
               <th class="text-center">Z</th>
-              <th class="text-center" id="vaca-1" @click="vac1()">V</th>
-              <!-- <th class="text-center" id="word-1" @click="c1()">C</th> -->
-              <th class="text-center" id="word-1" @click="c1()">C</th>
+              <th class="text-center" ref="vaca-1" @click="vac1()">V</th>
+              <th class="text-center" ref='word-1' @click="c1()">C</th>
             </tr>
             <tr> 
               <th class="text-center">C</th>
               <th class="text-center">Y</th>
-              <th class="text-center" id="horse-1" @click="hor1()">O</th>
+              <th class="text-center" ref="horse-1" @click="hor1()">O</th>
               <th class="text-center">B</th>
-              <th class="text-center" id="tigger-2" @click="tig2()">I</th>
+              <th class="text-center" ref="tigger-2" @click="tig2()">I</th>
               <th class="text-center">U</th>
               <th class="text-center">A</th>
               <th class="text-center">Z</th>
@@ -61,45 +60,45 @@
             <tr>
               <th class="text-center">K</th>
               <th class="text-center">Ñ</th>
-              <th class="text-center" id="horse-2" @click="hor2()">L</th>
+              <th class="text-center" ref="horse-2" @click="hor2()">L</th>
               <th class="text-center">A</th>
-              <th class="text-center" id="tigger-3" @click="tig3()">G</th>
+              <th class="text-center" ref="tigger-3" @click="tig3()">G</th>
               <th class="text-center">R</th>
               <th class="text-center">V</th>
-              <th class="text-center" id="word-3" @click="c3()">M</th>
-              <th class="text-center" id="vaca-3" @click="vac3()">C</th>
+              <th class="text-center" ref="word-3" @click="c3()">M</th>
+              <th class="text-center" ref="vaca-3" @click="vac3()">C</th>
               <th class="text-center">B</th>
             </tr>
             <tr>
               <th class="text-center">V</th>
               <th class="text-center">M</th>
-              <th class="text-center" id="horse-3" @click="hor3()">L</th>
+              <th class="text-center" ref="horse-3" @click="hor3()">L</th>
               <th class="text-center">L</th>
-              <th class="text-center" id="tigger-4" @click="tig4()">R</th>
+              <th class="text-center" ref="tigger-4" @click="tig4()">R</th>
               <th class="text-center">T</th>
-              <th class="text-center" id="word-4" @click="c4()">E</th>
+              <th class="text-center" ref="word-4" @click="c4()">E</th>
               <th class="text-center">Z</th>
-              <th class="text-center" id="vaca-4" @click="vac4()">A</th>
-              <th class="text-center" id="nu-1" @click="nu1()">Ñ</th>
+              <th class="text-center" ref="vaca-4" @click="vac4()">A</th>
+              <th class="text-center" ref="nu-1" @click="nu1()">Ñ</th>
             </tr>
             <tr>
               <th class="text-center">U</th>
               <th class="text-center">M</th>
-              <th class="text-center" id="horse-4" @click="hor4()">A</th>
+              <th class="text-center" ref="horse-4" @click="hor4()">A</th>
               <th class="text-center">A</th>
-              <th class="text-center" id="tigger-5" @click="tig5()">E</th>
-              <th class="text-center" id="word-5" @click="c5()">L</th>
+              <th class="text-center" ref="tigger-5" @click="tig5()">E</th>
+              <th class="text-center" ref="word-5" @click="c5()">L</th>
               <th class="text-center">L</th>
               <th class="text-center">Z</th>
               <th class="text-center">T</th>
-              <th class="text-center" id="nu-2" @click="nu2()">U</th>
+              <th class="text-center" ref="nu-2" @click="nu2()">U</th>
             </tr>
             <tr>
               <th class="text-center">T</th>
               <th class="text-center">A</th>
-              <th class="text-center" id="horse-5" @click="hor5()">B</th>
+              <th class="text-center" ref="horse-5" @click="hor5()">B</th>
               <th class="text-center">K</th>
-              <th class="text-center" id="word-6" @click="c6()">L</th>
+              <th class="text-center" ref="word-6" @click="c6()">L</th>
               <th class="text-center">U</th>
               <th class="text-center">X</th>
               <th class="text-center">E</th>
@@ -109,8 +108,8 @@
             <tr>
               <th class="text-center">R</th>
               <th class="text-center">X</th>
-              <th class="text-center" id="horse-6" @click="hor6()">A</th>
-              <th class="text-center" id="word-7" @click="c7()">O</th>
+              <th class="text-center" ref="horse-6" @click="hor6()">A</th>
+              <th class="text-center" ref="word-7" @click="c7()">O</th>
               <th class="text-center">T</th>
               <th class="text-center">U</th>
               <th class="text-center">O</th>
@@ -121,7 +120,7 @@
             <tr>
               <th class="text-center">P</th>
               <th class="text-center">X</th>
-              <th class="text-center" id="horse-7" @click="hor7()">C</th>
+              <th class="text-center" ref="horse-7" @click="hor7()">C</th>
               <th class="text-center">Ñ</th>
               <th class="text-center">T</th>
               <th class="text-center">U</th>
@@ -170,6 +169,7 @@ export default {
   data(){
     return{
       win:0,
+      letra1:null,
       l1:null,l2:null,l3:null,l4:null,l5:null,l6:null,l7:null,
       h1:null,h2:null,h3:null,h4:null,h5:null,h6:null,h7:null,
       t1:null,t2:null,t3:null,t4:null,t5:null,
@@ -188,85 +188,86 @@ export default {
     },
     // WORD CAMELLO
     c1(){
-      this.l1 = document.getElementById('word-1').style.backgroundColor = 'darkcyan';
+      // this.l1 = document.getElementById('word-1').style.backgroundColor = 'darkcyan';
+      this.l1 = this.$refs['word-1'].style.backgroundColor = 'darkcyan';
     },
     c2(){
       this.l2 = document.querySelector('.word-2').style.backgroundColor = 'darkcyan';
     },
     c3(){
-      this.l3 = document.getElementById('word-3').style.backgroundColor = 'darkcyan';
+      this.l3 = this.$refs['word-3'].style.backgroundColor = 'darkcyan';
     },
     c4(){
-      this.l4 = document.getElementById('word-4').style.backgroundColor = 'darkcyan';
+      this.l4 = this.$refs['word-4'].style.backgroundColor = 'darkcyan';
     },
     c5(){
-      this.l5 = document.getElementById('word-5').style.backgroundColor = 'darkcyan';
+      this.l5 = this.$refs['word-5'].style.backgroundColor = 'darkcyan';
     },
     c6(){
-      this.l6 = document.getElementById('word-6').style.backgroundColor = 'darkcyan';
+      this.l6 = this.$refs['word-6'].style.backgroundColor = 'darkcyan';
     },
     c7(){
-      this.l7 = document.getElementById('word-7').style.backgroundColor = 'darkcyan';
+      this.l7 = this.$refs['word-7'].style.backgroundColor = 'darkcyan';
     },
     /* WORD CABALLO */
     hor1(){
-      this.h1 = document.getElementById('horse-1').style.backgroundColor = 'darkcyan';
+      this.h1 = this.$refs['horse-1'].style.backgroundColor = 'darkcyan';
     },
     hor2(){
-      this.h2 = document.getElementById('horse-2').style.backgroundColor = 'darkcyan';
+      this.h2 = this.$refs['horse-2'].style.backgroundColor = 'darkcyan';
     },
     hor3(){
-      this.h3 = document.getElementById('horse-3').style.backgroundColor = 'darkcyan';
+      this.h3 = this.$refs['horse-3'].style.backgroundColor = 'darkcyan';
     },
     hor4(){
-      this.h4 = document.getElementById('horse-4').style.backgroundColor = 'darkcyan';
+      this.h4 = this.$refs['horse-4'].style.backgroundColor = 'darkcyan';
     },
     hor5(){
-      this.h5 = document.getElementById('horse-5').style.backgroundColor = 'darkcyan';
+      this.h5 = this.$refs['horse-5'].style.backgroundColor = 'darkcyan';
     },
     hor6(){
-      this.h6 = document.getElementById('horse-6').style.backgroundColor = 'darkcyan';
+      this.h6 = this.$refs['horse-6'].style.backgroundColor = 'darkcyan';
     },
     hor7(){
-      this.h7 = document.getElementById('horse-7').style.backgroundColor = 'darkcyan';
+      this.h7 = this.$refs['horse-7'].style.backgroundColor = 'darkcyan';
     },
     /* word tigre */
     /* TIGRE */
     tig1(){
-      this.t1 = document.getElementById('tigger-1').style.backgroundColor = 'darkcyan';
+      this.t1 = this.$refs['tigger-1'].style.backgroundColor = 'darkcyan';
     },
     tig2(){
-      this.t2 = document.getElementById('tigger-2').style.backgroundColor = 'darkcyan';
+      this.t2 = this.$refs['tigger-2'].style.backgroundColor = 'darkcyan';
     },
     tig3(){
-      this.t3 = document.getElementById('tigger-3').style.backgroundColor = 'darkcyan';
+      this.t3 = this.$refs['tigger-3'].style.backgroundColor = 'darkcyan';
     },
     tig4(){
-      this.t4 = document.getElementById('tigger-4').style.backgroundColor = 'darkcyan';
+      this.t4 = this.$refs['tigger-4'].style.backgroundColor = 'darkcyan';
     },
     tig5(){
-      this.t5 = document.getElementById('tigger-5').style.backgroundColor = 'darkcyan';
+      this.t5 = this.$refs['tigger-5'].style.backgroundColor = 'darkcyan';
     },
     /* word vaca */
     /* VACA */
     vac1(){
-      this.v1 = document.getElementById('vaca-1').style.backgroundColor = 'darkcyan';
+      this.v1 = this.$refs['vaca-1'].style.backgroundColor = 'darkcyan';
     },
     vac2(){
       this.v2 = document.querySelector('.vaca-2').style.backgroundColor = 'darkcyan';
     },
     vac3(){
-      this.v3 = document.getElementById('vaca-3').style.backgroundColor = 'darkcyan';
+      this.v3 = this.$refs['vaca-3'].style.backgroundColor = 'darkcyan';
     },
     vac4(){
-      this.v4 = document.getElementById('vaca-4').style.backgroundColor = 'darkcyan';
+      this.v4 = this.$refs['vaca-4'].style.backgroundColor = 'darkcyan';
     },
     /* word ñu */
     nu1(){
-      this.lA1 = document.getElementById('nu-1').style.backgroundColor = 'darkcyan';
+      this.lA1 = this.$refs['nu-1'].style.backgroundColor = 'darkcyan';
     },
     nu2(){
-      this.lA2 = document.getElementById('nu-2').style.backgroundColor = 'darkcyan';
+      this.lA2 = this.$refs['nu-2'].style.backgroundColor = 'darkcyan';
     },
     test(){
       if(this.l1 == 'darkcyan' && this.l2 == 'darkcyan' && this.l3 == 'darkcyan' && this.l4 == 'darkcyan' && this.l5 == 'darkcyan' && this.l6 == 'darkcyan' && this.l7 == 'darkcyan'){
